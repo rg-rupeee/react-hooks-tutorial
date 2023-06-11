@@ -1,10 +1,10 @@
 import './App.css';
-import ParentComponent from './components/useContext/ParentComponent';
+import Counter from './components/useMemo/Counter';
 
 function App() {
   return (
     <div className='App'>
-      <ParentComponent />
+      <Counter></Counter>
     </div>
   );
 }
